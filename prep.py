@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 import numpy as np
 from torch import sign
 
-file = "/Users/karthik/Documents/GenHap/VibvizModel/VibVizEncoder/audio_wav/viblib/v-09-09-8-11.wav"
+file = "/Users/karthik/Documents/GenHap/VibvizModel/VibVizModel/audio_wav/viblib/v-09-09-8-11.wav"
 
 #waveform
 signal, sr = librosa.load(file, sr=22050)  #sr * T = the lenght of the signal array
